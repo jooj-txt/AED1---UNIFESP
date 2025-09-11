@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int N;
     
-    cout << "Insira o tamanho do vetor:(e seus numeros) " << endl;
+    cout << "Insira o tamanho do vetor (e seus numeros): " << endl;
     cin >> N; // Lê o tamanho do vetor
 
     // Aloca dinamicamente o vetor de inteiros
