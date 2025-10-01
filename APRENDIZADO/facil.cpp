@@ -2,19 +2,15 @@
 using namespace std;
  
 int main() {
-    int A, B;
-    int R;
-    int X;
+
+long x = 1;
+
+    for (int i = 1; i <= 128; i += 1) {
+    x += x;
+}
     
-    cin >> A;
-    cin >> B;
-    
-    R = A + B;
-    
-    cout << "X =" << R << endl;
+    cout << "X = " << x << endl;
     
     
  
-
-    return 0;
 }
